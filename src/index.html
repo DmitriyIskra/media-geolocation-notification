@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="board">
+
+        <div class="messages"></div>
+
+        <form class="form">
+            <div class="wr-input">
+                <input type="text" class="input" name="input">
+            </div>
+            <div class="wr-controllers">
+                <button class="voice"></button>
+                <button class="video"></button>
+            </div>
+        </form>
+
+        <ul class="modal unactive-modal">
+            <li class="content">Что-то пошло не так</li>
+            <li class="content">К сожалению, нам не удалось определить ваше местоположение, пожалуйста, дайте разрешение на использование геолокации, либо введите координаты вручную.
+            </li>
+            <li class="content">Широта и долгота через запятую</li>
+            <li class="content">
+                <form class="modal-form">
+                    <input class="enter-geolocation" type="text" name="inputGeo" placeholder="51.50851, -0.12572">
+                    <div class="modal-buttons">
+                        <button class="modal-button modal-reset" type="reset">Отмена</button>
+                        <button class="modal-button modal-submit">ОК</button>
+                    </div>
+                </form>
+                
+            </li>
+            
+        </ul>
+        
+    </div>
+</body>
+</html>
