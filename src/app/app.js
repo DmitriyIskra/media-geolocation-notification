@@ -1,9 +1,8 @@
+import moment from 'moment-timezone';
 import Controll from './controll';
 import DrawUI from './drawUI';
 import Pattern from './Pattern';
 import validation from './validation';
-
-import moment from 'moment-timezone';
 
 const board = document.querySelector('.board');
 
